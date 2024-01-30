@@ -36,6 +36,7 @@ If you find issues, please report them on the issue tracker.
     <li>
       There is also an installer script for linux and MacOS that will try to put the file into your /usr/bin/ directory along with an executable script that makes it available as a command.
       Windows installer unsupported, but I might make it to learn how to make one.
+      If you opt for the script, dont run it as super user (i.e. runnign "sudo pytimer-install.sh"), becuase then the script won't be able to install the files into the proper directories.
     </li>
   </ul>
 
