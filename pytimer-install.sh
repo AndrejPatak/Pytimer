@@ -1,11 +1,11 @@
 #!/bin/sh
 
 echo "Installing pytimer!"
-cd
+cd /home/$USER/
 git clone "https://github.com/AndrejPatak/Pytimer"
-cd /home/$USER/Pytimer/
-mv pytimer-bin pytimer
-chmod +x pytimer
+cd ./Pytimer/
+chmod +x pytimer-bin
 chmod +x pytimer.py
-sudo cp /home/$USER/Pytimer/pytimer /usr/bin/
-echo "Install finished. Have a nice day!"
+sudo ln -s /home/$USER/Pytimer/pytimer-bin /usr/bin/pytimer
+echo "Install finished. Have a nice day" $USER"!"
+
